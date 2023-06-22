@@ -130,24 +130,176 @@ PRODUCT_PACKAGES += \
     AVCSecureVdecCA \
     HEVCSecureVdecCA \
     VP9SecureVdecCA \
+    libGLES_meow \
+    libMEOW_data \
+    libMEOW_gift \
+    libMEOW_qt \
+    libMEOW_trace \
+    libGLES_mali \
+    android.hardware.graphics.allocator@4.0-impl-mediatek \
+    android.hardware.graphics.mapper@4.0-impl-mediatek \
+    gralloc.common \
     libAVCSecureVencCA \
+    libDefaultFpsActor \
+    libFrameRecord \
+    libJpgEncPipe \
+    libMtkOmxCore \
+    libMtkSpeechEnh \
+    libNoFpsActor \
+    libOpenCL \
+    libSQLiteModule_VER_ALL \
+    libTEECommon \
+    lib_iir \
+    lib_speech_enh \
+    libaal_cust \
+    libaal_key \
+    libaal_mtk \
+    libadpcmdec_mtk \
     libaedv \
     libapu_mdw \
     libapu_mdw_batch \
+    libapusys \
+    libapusys_edma \
+    libarmnn \
+    libarmnn_ndk.mtk.vndk \
+    libasn1c_core \
+    libasn1c_mapi \
+    libasn1c_mdmi \
+    libbessound_hd_mtk_vendor \
+    libblisrc32_vendor \
     libbwc \
+    libcares_naptr \
+    libcarrierconfig \
     libccci_util \
+    libcmdl \
+    libcmdl_ndk.mtk.vndk \
+    libcodec2_mtk_c2store \
+    libcodec2_mtk_vdec \
+    libcodec2_mtk_venc \
+    libcodec2_soft_mtk_alacdec \
+    libcodec2_soft_mtk_apedec \
+    libcodec2_soft_mtk_imaadpcmdec \
+    libcodec2_soft_mtk_mp3dec \
+    libcodec2_soft_mtk_msadpcmdec \
+    libcodec2_vpp_qt_plugin \
+    libcodec2_vpp_rs_plugin \
+    libconnfem \
+    libcustom_nvram \
+    libcvsd_mtk \
+    libdapparamstorage \
+    libfgauge_gm30 \
+    libfile_op \
+    libformatter \
+    libged \
+    libgpu_aux \
+    libgpud \
+    libgralloc_extra \
+    libgralloc_metadata \
+    libgralloctypes_mtk \
     libgz_gp_client \
     libgz_uree \
+    libhfmanager \
+    libhfmanagerwrapper \
+    libicd_decoder \
+    libimsg_log \
     libion_mtk \
     libion_ulit \
+    libjpeg-alpha-oal_vendor \
+    libjpeg-alpha_vendor \
     libladder \
+    liblogwrap_vendor \
+    libminiui \
+    libmisound \
+    libmisoundcrossfade \
+    libmml \
+    libmnetlink_v104 \
+    libmp3dec_mtk \
+    libmsbc_mtk \
+    libmtkares \
+    libmtkcutils \
+    libmtkhardware_legacy \
+    libmtklimiter_vendor \
+    libmtknetutils \
+    libmtkproperty \
+    libmtkrillog \
+    libmtkshifter_vendor \
+    libmtkspparser \
+    libmtksysutils \
+    libmvpu_cic_ci_compiler \
+    libmvpu_clc_cl_compiler \
+    libmvpu_clc_mvpu_debuginfo \
+    libmvpu_clc_mvpu_elf \
+    libmvpu_clc_mvpu_utility \
+    libmvpu_clc_vpu_isa \
+    libmvpu_config \
+    libmvpu_engine \
+    libmvpu_engine_pub \
+    libmvpu_pattern \
+    libmvpu_pattern_pub \
+    libmvpu_runtime \
+    libmvpu_runtime_pub \
+    libmvpuop_mtk_cv \
+    libmvpuop_mtk_nn \
+    libneuroeara \
+    libneuropilot_hal_utils \
     libnvram \
     libnvram_sec \
+    liboemcrypto \
+    libpixelflinger \
+    libpower_timer \
+    libpqframework \
+    librgbwlightsensor \
+    librt_extamp_intf \
+    libsimlock \
+    libsimmelock \
+    libsixth \
+    libspeech_enh_lib \
+    libspeechparser_vendor \
+    libstagefrightdolby \
+    libstagefrighthw \
     libstorage_otp \
+    libsysenv \
+    libteei_daemon_vfs \
+    libtflite_mtk \
     libthha \
+    libtlcWidevineModularDrm \
+    libudf \
+    liburee_meta_drmkeyinstall \
+    libvcodec_oal \
+    libvcodecdrv_header_stub \
+    libvow_ap_test_aa \
+    libvow_ap_test_dd \
+    libvow_ap_test_ha \
+    libvow_ap_test_hh \
+    libvow_ap_test_nn \
+    libvpu5 \
+    libwvhidl \
+    libwvdrmengine \
     arm.graphics-V1-ndk_platform \
+    libaal_cust_func \
+    libaalservice \
+    libaiselector \
+    libdpframework \
+    libgpudataproducer \
     libmtk_drvb \
+    libpq_cust_base \
+    libpq_prot \
+    vendor.mediatek.hardware.mmagent@1.0 \
+    vendor.mediatek.hardware.mmagent@1.1 \
+    vendor.mediatek.hardware.mms@1.0 \
+    vendor.mediatek.hardware.mms@1.1 \
+    vendor.mediatek.hardware.mms@1.2 \
+    vendor.mediatek.hardware.mms@1.3 \
+    vendor.mediatek.hardware.mms@1.4 \
+    vendor.mediatek.hardware.mms@1.5 \
+    vendor.mediatek.hardware.mms@1.6 \
+    vendor.mediatek.hardware.pq@2.0 \
     libHEVCdec_sa.ca7.android \
+    libMtkOmxAdpcmDec \
+    libMtkOmxAlacDec \
+    libMtkOmxApeDec \
+    libMtkOmxGsmDec \
+    libMtkOmxMp3Dec \
     libh264dec_customize \
     libh264dec_sa.ca7 \
     libh264dec_sd.ca7 \
@@ -156,11 +308,13 @@ PRODUCT_PACKAGES += \
     libhevce_sb.ca7.android \
     libmp4enc_sa.ca7 \
     libmp4enc_xa.ca7 \
-    libvcodec_oal \
+    librcs_interface \
+    librcs_volte_core \
     libvcodec_utility_plat.mt6789 \
     libvp8dec_sa.ca7 \
     libvp8enc_sa.ca7 \
     libvp9dec_sa.ca7 \
+    libvpud_vcodec \
     libvcodec_utility \
     libvcodec_utility_v3a \
     libvcodecdrv \
@@ -169,12 +323,6 @@ PRODUCT_PACKAGES += \
     APUWareApusysServer \
     APUWareHmpServer \
     APUWareUtilsServer \
-    libGLES_meow \
-    libMEOW_data \
-    libMEOW_gift \
-    libMEOW_qt \
-    libMEOW_trace \
-    libGLES_mali \
     hdr_capture \
     hdr_preview \
     hq_algoutils \
@@ -188,9 +336,6 @@ PRODUCT_PACKAGES += \
     kmsetkey.beanpod \
     libSoftGatekeeper \
     android.hardware.camera.provider@2.6-impl-mediatek \
-    android.hardware.graphics.allocator@4.0-impl-mediatek \
-    android.hardware.graphics.mapper@4.0-impl-mediatek \
-    gralloc.common \
     vendor.mediatek.hardware.camera.atms@1.0-impl \
     vendor.mediatek.hardware.camera.bgservice@1.1-impl \
     vendor.mediatek.hardware.camera.ccap@1.0-impl \
@@ -224,29 +369,14 @@ PRODUCT_PACKAGES += \
     libCamera_hi846mipiraw_HDRMode_Capture \
     libCamera_hi846mipiraw_QQ_Capture \
     libCamera_hi846mipiraw_Wechat_capture \
-    libDefaultFpsActor \
     libFaceCenterAlgo \
-    libFrameRecord \
-    libJpgEncPipe \
-    libMtkSpeechEnh \
-    libNoFpsActor \
-    libOpenCL \
-    libSQLiteModule_VER_ALL \
-    libTEECommon \
     libVkLayer_mtk_rt_sdk \
     lib_eara_io_scndet \
     lib_eara_io_service \
     lib_eara_io_systracer \
     lib_eara_io_timer \
     lib_eara_io_util \
-    lib_speech_enh \
-    libaal_cust \
-    libaal_key \
-    libaal_mtk \
-    libadpcmdec_mtk \
     libapmonitor_vendor \
-    libapusys \
-    libapusys_edma \
     libarcsoft_beautyshot \
     libarcsoft_fbpre \
     libarcsoft_hdr_detection \
@@ -254,11 +384,6 @@ PRODUCT_PACKAGES += \
     libarcsoft_low_light_hdr \
     libarcsoft_super_night \
     libarcsoft_supernight \
-    libarmnn \
-    libarmnn_ndk.mtk.vndk \
-    libasn1c_core \
-    libasn1c_mapi \
-    libasn1c_mdmi \
     libaudio_param_parser-vnd \
     libaudiocompensationfilter_vendor \
     libaudiocompensationfilterc \
@@ -272,8 +397,6 @@ PRODUCT_PACKAGES += \
     libaudiosmartpamtk \
     libaudiotoolkit_vendor \
     libaurisysdemo \
-    libbessound_hd_mtk_vendor \
-    libblisrc32_vendor \
     libbluetooth_audio_session_mediatek \
     libbluetooth_mtk \
     libbluetooth_mtk_pure \
@@ -293,140 +416,56 @@ PRODUCT_PACKAGES += \
     libcamalgo.utility \
     libcamalgo.warp \
     libcamera_scene \
-    libcares_naptr \
-    libcmdl \
-    libcmdl_ndk.mtk.vndk \
-    libcodec2_mtk_c2store \
-    libcodec2_mtk_vdec \
-    libcodec2_mtk_venc \
-    libcodec2_soft_mtk_alacdec \
-    libcodec2_soft_mtk_apedec \
-    libcodec2_soft_mtk_imaadpcmdec \
-    libcodec2_soft_mtk_mp3dec \
-    libcodec2_soft_mtk_msadpcmdec \
-    libcodec2_vpp_qt_plugin \
-    libcodec2_vpp_rs_plugin \
     libcomposer_ext \
-    libconnfem \
-    libcustom_nvram \
-    libcvsd_mtk \
-    libdapparamstorage \
+    libdeccfg \
     libdlbdsservice \
     libfacetracker \
     libfft_vendor \
-    libfgauge_gm30 \
-    libfile_op \
     libforkexecwrap \
-    libformatter \
-    libged \
-    libgpu_aux \
-    libgpud \
-    libgralloc_extra \
-    libgralloc_metadata \
-    libgralloctypes_mtk \
     libgwsd-ril \
     libheichal \
-    libhfmanager \
-    libhfmanagerwrapper \
     libhwm \
-    libicd_decoder \
     libifcutils_mtk \
     libimagebuffer_wrapper \
-    libimsg_log \
-    libjpeg-alpha-oal_vendor \
-    libjpeg-alpha_vendor \
     libkmsetkey \
     libksensor \
-    libminiui \
     libmipc \
-    libmisound \
-    libmisoundcrossfade \
+    libmiresample \
     libmmagent \
-    libmml \
-    libmnetlink_v104 \
     libmorpho.photosolid \
     libmorpho_Lowlight \
-    libmp3dec_mtk \
     libmpbase \
-    libmsbc_mtk \
     libmtk-fusion-ril-prop-vsim \
     libmtk-ril \
-    libmtkares \
     libmtkcam_pipelinepolicy-aov \
     libmtkconfig \
     libmtkconfigutils \
-    libmtkcutils \
-    libmtkhardware_legacy \
     libmtkisp_metadata \
-    libmtklimiter_vendor \
     libmtkmipc-ril \
     libmtknetcap \
-    libmtknetutils \
-    libmtkproperty \
-    libmtkrillog \
     libmtkrilutils \
-    libmtkshifter_vendor \
-    libmtkspparser \
-    libmtksysutils \
     libmtktinyxml \
     libmtkutils \
-    libmvpu_cic_ci_compiler \
-    libmvpu_clc_cl_compiler \
-    libmvpu_clc_mvpu_debuginfo \
-    libmvpu_clc_mvpu_elf \
-    libmvpu_clc_mvpu_utility \
-    libmvpu_clc_vpu_isa \
-    libmvpu_config \
-    libmvpu_engine \
-    libmvpu_engine_pub \
-    libmvpu_pattern \
-    libmvpu_pattern_pub \
-    libmvpu_runtime \
-    libmvpu_runtime_pub \
-    libmvpuop_mtk_cv \
-    libmvpuop_mtk_nn \
-    libneuroeara \
     libneuron_graph_delegate.mtk \
     libneuron_platform \
-    libneuropilot_hal_utils \
     libnir_neon_driver_ndk.mtk.vndk \
     libnpagent \
     libnpagent_server \
-    liboemcrypto \
-    libpixelflinger \
-    libpqframework \
     libratconfig \
     libremosaic_wrapper \
     libremosaiclib \
     librilfusion \
-    libsixth \
-    libspeech_enh_lib \
-    libspeechparser_vendor \
-    libstagefrightdolby \
-    libstagefrighthw \
-    libsysenv \
-    libteei_daemon_vfs \
-    libtflite_mtk \
-    libtlcWidevineModularDrm \
+    libsmartcharging \
     libtranslator_mapi_v3.0 \
     libtranslator_mdmi_v2.8.2 \
     libtranslator_utils \
     libtrm \
-    libudf \
-    liburee_meta_drmkeyinstall \
     libvia-ril \
     libviamipc-ril \
-    libvow_ap_test_aa \
-    libvow_ap_test_dd \
-    libvow_ap_test_ha \
-    libvow_ap_test_hh \
-    libvow_ap_test_nn \
+    libvoiprec \
     libvpu \
-    libwifi-hal-mtk \
     libwpfa \
-    libwvhidl \
     libwvkeybox \
-    libwvdrmengine \
     gc08a3_mipi_raw_IdxMgr \
     gc08a3_mipi_raw_tuning \
     hi846_mipi_raw_IdxMgr \
@@ -477,8 +516,6 @@ PRODUCT_PACKAGES += \
     libSonyIMX519PdafLibraryWrapper \
     libaaa_ltm \
     libaaa_ltmx \
-    libaal_cust_func \
-    libaalservice \
     libacdk \
     libaiawb_moon \
     libaiawb_p1ggm \
@@ -488,7 +525,6 @@ PRODUCT_PACKAGES += \
     libaibc_tuning_p3 \
     libaibc_tuning_p4 \
     libaidepth_tuning \
-    libaiselector \
     libcam.afhal \
     libcam.chdr \
     libcam.feature_utils \
@@ -540,7 +576,6 @@ PRODUCT_PACKAGES += \
     libcameracustom \
     libdip_drv \
     libdip_postproc \
-    libdpframework \
     libeffecthal.base \
     libfeature.face \
     libfeature.stereo.provider \
@@ -624,8 +659,6 @@ PRODUCT_PACKAGES += \
     libneuron_adapter_mgvi \
     libneuron_runtime.5 \
     libnir_neon_driver \
-    libpq_cust_base \
-    libpq_prot \
     libpqparamparser \
     libstereoinfoaccessor_vsdof \
     libvainr_model \
@@ -643,6 +676,7 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.apuware.apusys@2.1 \
     vendor.mediatek.hardware.apuware.hmp@1.0 \
     vendor.mediatek.hardware.apuware.utils@2.0 \
+    vendor.mediatek.hardware.atci@1.0 \
     vendor.mediatek.hardware.audio@6.1 \
     vendor.mediatek.hardware.audio@7.1 \
     vendor.mediatek.hardware.bluetooth.audio@2.1 \
@@ -657,6 +691,7 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.camera.lomoeffect@1.0 \
     vendor.mediatek.hardware.camera.postproc@1.0 \
     vendor.mediatek.hardware.camera.security@1.0 \
+    vendor.mediatek.hardware.clientapi@1.0 \
     vendor.mediatek.hardware.composer_ext@1.0 \
     vendor.mediatek.hardware.dmc@1.0 \
     vendor.mediatek.hardware.dmc@1.1 \
@@ -665,15 +700,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.keymaster_attestation@1.1 \
     vendor.mediatek.hardware.lbs@1.0 \
     vendor.mediatek.hardware.mdmonitor@1.0 \
-    vendor.mediatek.hardware.mmagent@1.0 \
-    vendor.mediatek.hardware.mmagent@1.1 \
-    vendor.mediatek.hardware.mms@1.0 \
-    vendor.mediatek.hardware.mms@1.1 \
-    vendor.mediatek.hardware.mms@1.2 \
-    vendor.mediatek.hardware.mms@1.3 \
-    vendor.mediatek.hardware.mms@1.4 \
-    vendor.mediatek.hardware.mms@1.5 \
-    vendor.mediatek.hardware.mms@1.6 \
     vendor.mediatek.hardware.mtkradioex@3.0 \
     vendor.mediatek.hardware.netdagent@1.0 \
     vendor.mediatek.hardware.neuropilot.agent@1.0 \
@@ -683,7 +709,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.nvram@1.1 \
     vendor.mediatek.hardware.power@1.1 \
     vendor.mediatek.hardware.power@2.0 \
-    vendor.mediatek.hardware.pq@2.0 \
     vendor.mediatek.hardware.pq@2.1 \
     vendor.mediatek.hardware.pq@2.10 \
     vendor.mediatek.hardware.pq@2.11 \
@@ -861,20 +886,20 @@ PRODUCT_PACKAGES += \
     ecc_list_OP20 \
     ecc_list_OP236 \
     ecc_list_preference \
+    fstb \
+    gbe.cfg \
     android.hardware.bluetooth@1.1-service-mediatek \
     android.hardware.drm@1.4-service.widevine \
     android.hardware.graphics.allocator@4.0-service-mediatek \
     android.hardware.media.c2@1.2-mediatek \
     android.hardware.neuralnetworks-shim-service-mtk \
     android.hardware.security.keymint-service.beanpod \
-    android.hardware.sensors@2.0-service.multihal-mediatek \
-    android.hardware.usb@1.2-service-mediatekv2 \
     camerahalserver \
     dcxo_nvram_init \
-    display \
     eara-io-service \
     fuelgauged_init \
     fuelgauged_nvram_init \
+    init.bip_ap \
     init.cccifsd \
     init.cccimdinit \
     init.cccirpcd \
@@ -895,12 +920,15 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.mms@1.6-service \
     vendor.mediatek.hardware.nvram@1.1-sevice \
     vendor.mediatek.hardware.pq@2.2-service \
+    volte_clientapi_ua \
+    volte_rcs_ua \
     wlan_assistant \
     meow \
     misound_res \
     misound_res_headphone \
     misound_res_spk \
     mpe \
+    mtk_omx_core \
     mtk_platform_codecs_config \
     mtk_vext_info \
     nnapi_powerhal \
@@ -935,7 +963,6 @@ PRODUCT_PACKAGES += \
     android.hardware.security.keymint-service.beanpod.xml \
     android.hardware.security.secureclock-service.beanpod.xml \
     android.hardware.security.sharedsecret-service.beanpod.xml \
-    android.hardware.usb@1.2-service-mediatekv2.xml \
     manifest_android.hardware.drm@1.4-service.widevine \
     manifest_apuware_apusys \
     manifest_apuware_hmp \
@@ -950,22 +977,27 @@ PRODUCT_PACKAGES += \
     virtual-spn-conf-by-imsi \
     wfd_source_capability \
     xgf \
+    bip_ap \
     bp_kmsetkey_ca \
     ccci_fsd \
     ccci_mdinit \
     ccci_rpcd \
     conninfra_loader \
+    dconfig \
     dcxosetcap \
+    dexecutor \
+    dmc_core \
+    doeapp-memtester \
+    doeapp-sat \
     eara_io_service \
     fuelgauged \
     fuelgauged_nvram \
+    gbe \
     android.hardware.bluetooth@1.1-service-mediatek \
     android.hardware.drm@1.4-service.widevine \
     android.hardware.media.c2@1.2-mediatek-64b \
     android.hardware.neuralnetworks-shim-service-mtk \
     android.hardware.security.keymint@1.0-service.beanpod \
-    android.hardware.sensors@2.0-service.multihal-mediatek \
-    android.hardware.usb@1.2-service-mediatekv2 \
     android.hardware.graphics.allocator@4.0-service-mediatek.mt6789 \
     camerahalserver \
     mtkfusionrild \
@@ -984,7 +1016,9 @@ PRODUCT_PACKAGES += \
     netdagent \
     netdc \
     nvram_daemon \
+    rcs_volte_stack \
     teei_daemon \
+    vpud \
     wlan_assistant \
     wmt_launcher \
     wmt_loader
