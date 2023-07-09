@@ -963,14 +963,14 @@ PRODUCT_PACKAGES += \
     android.hardware.security.keymint-service.beanpod.xml \
     android.hardware.security.secureclock-service.beanpod.xml \
     android.hardware.security.sharedsecret-service.beanpod.xml \
-    manifest_android.hardware.drm@1.4-service.widevine \
-    manifest_apuware_apusys \
-    manifest_apuware_hmp \
-    manifest_apuware_utils \
-    manifest_cameraprovider \
-    manifest_hwcomposer \
-    manifest_media_c2_V1_2_default \
-    manifest_vendor.dolby.hardware.dms \
+    manifest_android.hardware.drm@1.4-service.widevine.xml \
+    manifest_apuware_apusys.xml \
+    manifest_apuware_hmp.xml \
+    manifest_apuware_utils.xml \
+    manifest_cameraprovider.xml \
+    manifest_hwcomposer.xml \
+    manifest_media_c2_V1_2_default.xml \
+    manifest_vendor.dolby.hardware.dms.xml \
     virtual-spn-conf-by-efgid1 \
     virtual-spn-conf-by-efpnn \
     virtual-spn-conf-by-efspn \
