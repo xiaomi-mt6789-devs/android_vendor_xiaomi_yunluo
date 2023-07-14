@@ -186,7 +186,6 @@ PRODUCT_PACKAGES += \
     libconnfem \
     libcustom_nvram \
     libcvsd_mtk \
-    libdapparamstorage \
     libfgauge_gm30 \
     libfile_op \
     libformatter \
@@ -209,8 +208,6 @@ PRODUCT_PACKAGES += \
     libladder \
     liblogwrap_vendor \
     libminiui \
-    libmisound \
-    libmisoundcrossfade \
     libmml \
     libmnetlink_v104 \
     libmp3dec_mtk \
@@ -255,7 +252,6 @@ PRODUCT_PACKAGES += \
     libsixth \
     libspeech_enh_lib \
     libspeechparser_vendor \
-    libstagefrightdolby \
     libstagefrighthw \
     libstorage_otp \
     libsysenv \
@@ -417,8 +413,6 @@ PRODUCT_PACKAGES += \
     libcamalgo.warp \
     libcamera_scene \
     libcomposer_ext \
-    libdeccfg \
-    libdlbdsservice \
     libfacetracker \
     libfft_vendor \
     libforkexecwrap \
@@ -665,12 +659,6 @@ PRODUCT_PACKAGES += \
     libmtkcam_streaminfo_plugin-p1stt \
     sensors.touch.detect \
     libaudiopreprocessing_mtk \
-    libmisoundfx \
-    libswdap \
-    libswgamedap \
-    libswvqe \
-    vendor.dolby.hardware.dms@2.0-impl \
-    vendor.dolby.hardware.dms@2.0 \
     vendor.mediatek.hardware.apmonitor@2.0 \
     vendor.mediatek.hardware.apuware.apusys@2.0 \
     vendor.mediatek.hardware.apuware.apusys@2.1 \
@@ -872,7 +860,6 @@ PRODUCT_PACKAGES += \
     cust_color_dsi_l83_44_02_0c_cphy_vdo_mi \
     default_pd_calibration \
     df_default \
-    dax-default \
     dsi_l83_36_02_0a_cphy_vdo_mi \
     dsi_l83_44_02_0b_cphy_vdo_mi \
     dsi_l83_44_02_0c_cphy_vdo_mi \
@@ -914,7 +901,6 @@ PRODUCT_PACKAGES += \
     nvram_daemon \
     tetheroffloadservice \
     v3avpud \
-    vendor.dolby.hardware.dms@2.0-service \
     vendor.mediatek.hardware.keymaster_attestation@1.1-service \
     vendor.mediatek.hardware.mmagent@1.1-service \
     vendor.mediatek.hardware.mms@1.6-service \
@@ -970,7 +956,6 @@ PRODUCT_PACKAGES += \
     manifest_cameraprovider.xml \
     manifest_hwcomposer.xml \
     manifest_media_c2_V1_2_default.xml \
-    manifest_vendor.dolby.hardware.dms.xml \
     virtual-spn-conf-by-efgid1 \
     virtual-spn-conf-by-efpnn \
     virtual-spn-conf-by-efspn \
@@ -1002,7 +987,6 @@ PRODUCT_PACKAGES += \
     camerahalserver \
     mtkfusionrild \
     tetheroffloadservice \
-    vendor.dolby.hardware.dms@2.0-service \
     vendor.mediatek.hardware.keymaster_attestation@1.1-service \
     vendor.mediatek.hardware.mmagent@1.1-service \
     vendor.mediatek.hardware.mms@1.6-service \
