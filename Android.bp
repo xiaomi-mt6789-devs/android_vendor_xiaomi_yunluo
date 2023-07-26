@@ -7,6 +7,32 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
+	name: "libfmjni",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/system/lib64/libfmjni.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: true,
+	allow_undefined_symbols: false,
+	shared_libs: [
+		"libcutils",
+		"libmedia",
+		"liblog",
+		"libc++",
+		"libc",
+		"libm",
+		"libdl",
+	],
+	prefer: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "AVCSecureVdecCA",
 	owner: "xiaomi",
 	strip: {
