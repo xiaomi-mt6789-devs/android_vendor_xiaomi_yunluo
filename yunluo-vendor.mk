@@ -13,80 +13,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/yunluo/proprietary/vendor/firmware/WIFI_RAM_CODE_soc2_2_1e_1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/WIFI_RAM_CODE_soc2_2_1e_1.bin \
     vendor/xiaomi/yunluo/proprietary/vendor/firmware/WMT_SOC.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/WMT_SOC.cfg \
     vendor/xiaomi/yunluo/proprietary/vendor/firmware/fm_cust.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/fm_cust.cfg \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9886_cfg_6781v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6781v01.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9886_cfg_6785v96.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6785v96.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9886_cfg_6785v99.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6785v99.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9886_cfg_6853v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6853v01.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9886_cfg_6873v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6873v01.bin \
     vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9886_cfg_6877v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6877v01.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9886_cfg_6885v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6885v01.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9886_cfg_6885v1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6885v1.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9886_cfg_6885v9c.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6885v9c.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9886_cfg_6893v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6893v01.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9886_cfg_90hz6785.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_90hz6785.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9886_cfg_90hz6877.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_90hz6877.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9886_cfg_90hz6885.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_90hz6885.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9886_cfg_gt9885v1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_gt9885v1.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9886_firmware_6781v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6781v01.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9886_firmware_6785a4.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6785a4.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9886_firmware_6785ae.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6785ae.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9886_firmware_6853v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6853v01.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9886_firmware_6873v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6873v01.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9886_firmware_6877af.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6877af.bin \
     vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9886_firmware_6877v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6877v01.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9886_firmware_6885a1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6885a1.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9886_firmware_6885af.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6885af.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9886_firmware_6885b0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6885b0.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9886_firmware_6885b1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6885b1.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9886_firmware_6885v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6885v01.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9886_firmware_6893v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6893v01.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9896s_cfg_6781v01_1080x2280.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6781v01_1080x2280.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9896s_cfg_6781v01_1080x2300.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6781v01_1080x2300.bin \
     vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9896s_cfg_6789v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6789v01.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9896s_cfg_6833v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6833v01.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9896s_cfg_6853v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6853v01.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9896s_cfg_6855v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6855v01.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9896s_cfg_6873v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6873v01.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9896s_cfg_6877v01_1080x2280.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6877v01_1080x2280.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9896s_cfg_6877v01_1080x2300.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6877v01_1080x2300.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9896s_cfg_6879v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6879v01.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9896s_cfg_6893v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6893v01.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9896s_cfg_6893v02.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6893v02.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9896s_cfg_6893v03.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6893v03.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9896s_cfg_6893v04.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6893v04.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9896s_cfg_6893v05.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6893v05.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9896s_cfg_6895v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6895v01.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9896s_cfg_6983v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6983v01.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9896s_firmware_6781v01_1080x2280.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6781v01_1080x2280.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9896s_firmware_6781v01_1080x2300.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6781v01_1080x2300.bin \
     vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9896s_firmware_6789v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6789v01.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9896s_firmware_6833v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6833v01.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9896s_firmware_6853v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6853v01.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9896s_firmware_6855v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6855v01.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9896s_firmware_6873v00.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6873v00.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9896s_firmware_6877v01_1080x2280.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6877v01_1080x2280.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9896s_firmware_6877v01_1080x2300.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6877v01_1080x2300.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9896s_firmware_6879v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6879v01.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9896s_firmware_6893v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6893v01.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9896s_firmware_6893v02.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6893v02.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9896s_firmware_6893v03.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6893v03.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9896s_firmware_6893v04.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6893v04.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9896s_firmware_6893v05.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6893v05.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9896s_firmware_6895v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6895v01.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/gt9896s_firmware_6983v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6983v01.bin \
     vendor/xiaomi/yunluo/proprietary/vendor/firmware/lib3a.ccu:$(TARGET_COPY_OUT_VENDOR)/firmware/lib3a.ccu \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/mt6627_fm_v1_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6627_fm_v1_coeff.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/mt6627_fm_v1_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6627_fm_v1_patch.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/mt6630_fm_v1_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6630_fm_v1_coeff.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/mt6630_fm_v1_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6630_fm_v1_patch.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/mt6630_fm_v2_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6630_fm_v2_coeff.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/mt6630_fm_v2_coeff_tx.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6630_fm_v2_coeff_tx.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/mt6630_fm_v2_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6630_fm_v2_patch.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/mt6630_fm_v2_patch_tx.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6630_fm_v2_patch_tx.bin \
     vendor/xiaomi/yunluo/proprietary/vendor/firmware/mt6631_fm_v1_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6631_fm_v1_coeff.bin \
     vendor/xiaomi/yunluo/proprietary/vendor/firmware/mt6631_fm_v1_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6631_fm_v1_patch.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/mt6632_fm_v1_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6632_fm_v1_coeff.bin \
-    vendor/xiaomi/yunluo/proprietary/vendor/firmware/mt6632_fm_v1_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6632_fm_v1_patch.bin \
     vendor/xiaomi/yunluo/proprietary/vendor/firmware/mt6635_fm_v1_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6635_fm_v1_coeff.bin \
     vendor/xiaomi/yunluo/proprietary/vendor/firmware/mt6635_fm_v1_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6635_fm_v1_patch.bin \
     vendor/xiaomi/yunluo/proprietary/vendor/firmware/novatek_nt36523_L83_fw01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_nt36523_L83_fw01.bin \
@@ -140,56 +73,21 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@4.0-impl-mediatek \
     android.hardware.graphics.mapper@4.0-impl-mediatek \
     gralloc.common \
+    vulkan.mali \
     libAVCSecureVencCA \
     libDefaultFpsActor \
     libFrameRecord \
-    libJpgEncPipe \
-    libMtkOmxCore \
-    libMtkSpeechEnh \
     libNoFpsActor \
     libOpenCL \
-    libSQLiteModule_VER_ALL \
     libTEECommon \
-    lib_iir \
-    lib_speech_enh \
-    libaal_cust \
-    libaal_key \
-    libaal_mtk \
     libadpcmdec_mtk \
     libaedv \
-    libapu_mdw \
-    libapu_mdw_batch \
-    libapusys \
-    libapusys_edma \
-    libarmnn \
-    libarmnn_ndk.mtk.vndk \
-    libasn1c_core \
-    libasn1c_mapi \
-    libasn1c_mdmi \
-    libbessound_hd_mtk_vendor \
-    libblisrc32_vendor \
     libbwc \
     libcares_naptr \
     libcarrierconfig \
     libccci_util \
-    libcmdl \
-    libcmdl_ndk.mtk.vndk \
-    libcodec2_mtk_c2store \
-    libcodec2_mtk_vdec \
-    libcodec2_mtk_venc \
-    libcodec2_soft_mtk_alacdec \
-    libcodec2_soft_mtk_apedec \
-    libcodec2_soft_mtk_imaadpcmdec \
-    libcodec2_soft_mtk_mp3dec \
-    libcodec2_soft_mtk_msadpcmdec \
-    libcodec2_vpp_qt_plugin \
-    libcodec2_vpp_rs_plugin \
     libconnfem \
     libcustom_nvram \
-    libcvsd_mtk \
-    libfgauge_gm30 \
-    libfile_op \
-    libformatter \
     libged \
     libgpu_aux \
     libgpud \
@@ -198,86 +96,31 @@ PRODUCT_PACKAGES += \
     libgralloctypes_mtk \
     libgz_gp_client \
     libgz_uree \
-    libhfmanager \
-    libhfmanagerwrapper \
-    libicd_decoder \
-    libimsg_log \
     libion_mtk \
     libion_ulit \
-    libjpeg-alpha-oal_vendor \
-    libjpeg-alpha_vendor \
     libladder \
-    liblogwrap_vendor \
-    libminiui \
-    libmml \
-    libmnetlink_v104 \
     libmp3dec_mtk \
-    libmsbc_mtk \
     libmtkares \
     libmtkcutils \
     libmtkhardware_legacy \
-    libmtklimiter_vendor \
     libmtknetutils \
     libmtkproperty \
     libmtkrillog \
-    libmtkshifter_vendor \
-    libmtkspparser \
     libmtksysutils \
-    libmvpu_cic_ci_compiler \
-    libmvpu_clc_cl_compiler \
-    libmvpu_clc_mvpu_debuginfo \
-    libmvpu_clc_mvpu_elf \
-    libmvpu_clc_mvpu_utility \
-    libmvpu_clc_vpu_isa \
-    libmvpu_config \
-    libmvpu_engine \
-    libmvpu_engine_pub \
-    libmvpu_pattern \
-    libmvpu_pattern_pub \
-    libmvpu_runtime \
-    libmvpu_runtime_pub \
-    libmvpuop_mtk_cv \
-    libmvpuop_mtk_nn \
-    libneuroeara \
-    libneuropilot_hal_utils \
     libnvram \
     libnvram_sec \
     liboemcrypto \
-    libpixelflinger \
-    libpower_timer \
-    libpqframework \
-    librgbwlightsensor \
-    librt_extamp_intf \
-    libsimlock \
-    libsimmelock \
-    libsixth \
-    libspeech_enh_lib \
-    libspeechparser_vendor \
-    libstagefrighthw \
     libstorage_otp \
-    libsysenv \
-    libteei_daemon_vfs \
-    libtflite_mtk \
     libthha \
     libtlcWidevineModularDrm \
-    libudf \
     liburee_meta_drmkeyinstall \
     libvcodec_oal \
     libvcodecdrv_header_stub \
-    libvow_ap_test_aa \
-    libvow_ap_test_dd \
-    libvow_ap_test_ha \
-    libvow_ap_test_hh \
-    libvow_ap_test_nn \
-    libvpu5 \
     libwvhidl \
     libwvdrmengine \
     arm.graphics-V1-ndk_platform \
-    libaal_cust_func \
-    libaalservice \
     libaiselector \
     libdpframework \
-    libgpudataproducer \
     libmtk_drvb \
     libpq_cust_base \
     libpq_prot \
@@ -295,6 +138,7 @@ PRODUCT_PACKAGES += \
     libMtkOmxAdpcmDec \
     libMtkOmxAlacDec \
     libMtkOmxApeDec \
+    libMtkOmxCore \
     libMtkOmxGsmDec \
     libMtkOmxMp3Dec \
     libh264dec_customize \
@@ -307,11 +151,11 @@ PRODUCT_PACKAGES += \
     libmp4enc_xa.ca7 \
     librcs_interface \
     librcs_volte_core \
+    libstagefrighthw \
     libvcodec_utility_plat.mt6789 \
     libvp8dec_sa.ca7 \
     libvp8enc_sa.ca7 \
     libvp9dec_sa.ca7 \
-    libvpud_vcodec \
     libvcodec_utility \
     libvcodec_utility_v3a \
     libvcodecdrv \
@@ -340,7 +184,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.camera.isphal@1.1-impl \
     vendor.mediatek.hardware.camera.lomoeffect@1.0-impl \
     vendor.mediatek.hardware.pq@2.15-impl \
-    vulkan.mali \
     sensors.mediatek.V2.0 \
     sound_trigger.primary.mt6789 \
     vendor.mediatek.hardware.bluetooth.audio@2.1-impl \
@@ -367,13 +210,15 @@ PRODUCT_PACKAGES += \
     libCamera_hi846mipiraw_QQ_Capture \
     libCamera_hi846mipiraw_Wechat_capture \
     libFaceCenterAlgo \
-    libVkLayer_mtk_rt_sdk \
-    lib_eara_io_scndet \
-    lib_eara_io_service \
-    lib_eara_io_systracer \
-    lib_eara_io_timer \
-    lib_eara_io_util \
-    libapmonitor_vendor \
+    libJpgEncPipe \
+    libSQLiteModule_VER_ALL \
+    libaal_cust \
+    libaal_key \
+    libaal_mtk \
+    libapu_mdw \
+    libapu_mdw_batch \
+    libapusys \
+    libapusys_edma \
     libarcsoft_beautyshot \
     libarcsoft_fbpre \
     libarcsoft_hdr_detection \
@@ -381,19 +226,22 @@ PRODUCT_PACKAGES += \
     libarcsoft_low_light_hdr \
     libarcsoft_super_night \
     libarcsoft_supernight \
+    libarmnn \
+    libarmnn_ndk.mtk.vndk \
+    libasn1c_core \
+    libasn1c_mapi \
+    libasn1c_mdmi \
     libaudio_param_parser-vnd \
     libaudiocompensationfilter_vendor \
-    libaudiocompensationfilterc \
     libaudiocomponentengine_vendor \
-    libaudiocomponentenginec \
     libaudiocustparam_vendor \
     libaudiodcrflt_vendor \
     libaudiofmtconv \
-    libaudioloudc \
     libaudioprimarydevicehalifclient \
     libaudiosmartpamtk \
     libaudiotoolkit_vendor \
     libaurisysdemo \
+    libblisrc32_vendor \
     libbluetooth_audio_session_mediatek \
     libbluetooth_mtk \
     libbluetooth_mtk_pure \
@@ -413,51 +261,106 @@ PRODUCT_PACKAGES += \
     libcamalgo.utility \
     libcamalgo.warp \
     libcamera_scene \
+    libcmdl \
+    libcmdl_ndk.mtk.vndk \
+    libcodec2_mtk_c2store \
+    libcodec2_mtk_vdec \
+    libcodec2_mtk_venc \
+    libcodec2_soft_mtk_alacdec \
+    libcodec2_soft_mtk_apedec \
+    libcodec2_soft_mtk_imaadpcmdec \
+    libcodec2_soft_mtk_mp3dec \
+    libcodec2_soft_mtk_msadpcmdec \
+    libcodec2_vpp_qt_plugin \
+    libcodec2_vpp_rs_plugin \
     libcomposer_ext \
+    libcvsd_mtk \
     libfacetracker \
-    libfft_vendor \
+    libfgauge_gm30 \
+    libfile_op \
     libforkexecwrap \
+    libformatter \
     libgwsd-ril \
     libheichal \
+    libhfmanager \
+    libhfmanagerwrapper \
     libhwm \
     libifcutils_mtk \
     libimagebuffer_wrapper \
+    libimsg_log \
+    libjpeg-alpha-oal_vendor \
+    libjpeg-alpha_vendor \
     libkmsetkey \
     libksensor \
     libmipc \
     libmiresample \
     libmmagent \
+    libmml \
+    libmnetlink_v104 \
     libmorpho.photosolid \
     libmorpho_Lowlight \
     libmpbase \
+    libmsbc_mtk \
     libmtk-fusion-ril-prop-vsim \
     libmtk-ril \
     libmtkcam_pipelinepolicy-aov \
     libmtkconfig \
     libmtkconfigutils \
     libmtkisp_metadata \
+    libmtklimiter_vendor \
     libmtkmipc-ril \
     libmtknetcap \
     libmtkrilutils \
+    libmtkshifter_vendor \
     libmtktinyxml \
     libmtkutils \
+    libmvpu_cic_ci_compiler \
+    libmvpu_clc_cl_compiler \
+    libmvpu_clc_mvpu_debuginfo \
+    libmvpu_clc_mvpu_elf \
+    libmvpu_clc_mvpu_utility \
+    libmvpu_clc_vpu_isa \
+    libmvpu_config \
+    libmvpu_engine \
+    libmvpu_engine_pub \
+    libmvpu_pattern \
+    libmvpu_pattern_pub \
+    libmvpu_runtime \
+    libmvpu_runtime_pub \
+    libmvpuop_mtk_cv \
+    libmvpuop_mtk_nn \
     libneuron_graph_delegate.mtk \
     libneuron_platform \
     libnir_neon_driver_ndk.mtk.vndk \
     libnpagent \
     libnpagent_server \
+    libpixelflinger \
+    libpqframework \
     libratconfig \
     libremosaic_wrapper \
     libremosaiclib \
+    librgbwlightsensor \
     librilfusion \
-    libsmartcharging \
+    librt_extamp_intf \
+    libsixth \
+    libspeech_enh_lib \
+    libspeechparser_vendor \
+    libsysenv \
+    libteei_daemon_vfs \
+    libtflite_mtk \
     libtranslator_mapi_v3.0 \
     libtranslator_mdmi_v2.8.2 \
     libtranslator_utils \
     libtrm \
+    libudf \
     libvia-ril \
     libviamipc-ril \
     libvoiprec \
+    libvow_ap_test_aa \
+    libvow_ap_test_dd \
+    libvow_ap_test_ha \
+    libvow_ap_test_hh \
+    libvow_ap_test_nn \
     libvpu \
     libwpfa \
     libwvkeybox \
@@ -500,7 +403,6 @@ PRODUCT_PACKAGES += \
     libCamera_hi846mipiraw_Scene_Preview_4k \
     libCamera_hi846mipiraw_Video_1080 \
     libCamera_hi846mipiraw_Video_4k \
-    libDR \
     libSonyIMX230PdafLibrary \
     libSonyIMX230PdafLibraryWrapper \
     libSonyIMX338PdafLibrary \
@@ -511,15 +413,11 @@ PRODUCT_PACKAGES += \
     libSonyIMX519PdafLibraryWrapper \
     libaaa_ltm \
     libaaa_ltmx \
-    libacdk \
+    libaal_cust_func \
+    libaalservice \
     libaiawb_moon \
     libaiawb_p1ggm \
     libaiawb_sun \
-    libaibc_tuning \
-    libaibc_tuning_p2 \
-    libaibc_tuning_p3 \
-    libaibc_tuning_p4 \
-    libaidepth_tuning \
     libcam.afhal \
     libcam.chdr \
     libcam.feature_utils \
@@ -656,16 +554,12 @@ PRODUCT_PACKAGES += \
     libnir_neon_driver \
     libpqparamparser \
     libstereoinfoaccessor_vsdof \
-    libvainr_model \
     libmtkcam_streaminfo_plugin-p1stt \
     sensors.touch.detect \
-    libaudiopreprocessing_mtk \
-    vendor.mediatek.hardware.apmonitor@2.0 \
     vendor.mediatek.hardware.apuware.apusys@2.0 \
     vendor.mediatek.hardware.apuware.apusys@2.1 \
     vendor.mediatek.hardware.apuware.hmp@1.0 \
     vendor.mediatek.hardware.apuware.utils@2.0 \
-    vendor.mediatek.hardware.atci@1.0 \
     vendor.mediatek.hardware.audio@6.1 \
     vendor.mediatek.hardware.audio@7.1 \
     vendor.mediatek.hardware.bluetooth.audio@2.1 \
@@ -680,14 +574,9 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.camera.lomoeffect@1.0 \
     vendor.mediatek.hardware.camera.postproc@1.0 \
     vendor.mediatek.hardware.camera.security@1.0 \
-    vendor.mediatek.hardware.clientapi@1.0 \
     vendor.mediatek.hardware.composer_ext@1.0 \
-    vendor.mediatek.hardware.dmc@1.0 \
-    vendor.mediatek.hardware.dmc@1.1 \
-    vendor.mediatek.hardware.dmc@1.2 \
     vendor.mediatek.hardware.keymaster_attestation@1.0 \
     vendor.mediatek.hardware.keymaster_attestation@1.1 \
-    vendor.mediatek.hardware.lbs@1.0 \
     vendor.mediatek.hardware.mdmonitor@1.0 \
     vendor.mediatek.hardware.mtkradioex@3.0 \
     vendor.mediatek.hardware.netdagent@1.0 \
@@ -860,7 +749,6 @@ PRODUCT_PACKAGES += \
     cust_color_dsi_l83_44_02_0b_cphy_vdo_mi \
     cust_color_dsi_l83_44_02_0c_cphy_vdo_mi \
     default_pd_calibration \
-    df_default \
     dsi_l83_36_02_0a_cphy_vdo_mi \
     dsi_l83_44_02_0b_cphy_vdo_mi \
     dsi_l83_44_02_0c_cphy_vdo_mi \
@@ -874,8 +762,6 @@ PRODUCT_PACKAGES += \
     ecc_list_OP20 \
     ecc_list_OP236 \
     ecc_list_preference \
-    fstb \
-    gbe.cfg \
     android.hardware.bluetooth@1.1-service-mediatek \
     android.hardware.drm@1.4-service.widevine \
     android.hardware.graphics.allocator@4.0-service-mediatek \
@@ -884,21 +770,16 @@ PRODUCT_PACKAGES += \
     android.hardware.security.keymint-service.beanpod \
     camerahalserver \
     dcxo_nvram_init \
-    eara-io-service \
     fuelgauged_init \
     fuelgauged_nvram_init \
-    init.bip_ap \
     init.cccifsd \
     init.cccimdinit \
     init.cccirpcd \
-    init.vendor.ins \
     microtrust.bp_kmsetkey_ca \
     microtrust \
-    mtklog \
     mtkrild \
     muxreport \
     netdagent \
-    networksetting \
     nvram_daemon \
     tetheroffloadservice \
     v3avpud \
@@ -911,21 +792,12 @@ PRODUCT_PACKAGES += \
     volte_rcs_ua \
     wlan_assistant \
     meow \
-    misound_res \
-    misound_res_headphone \
-    misound_res_spk \
-    mpe \
     mtk_omx_core \
     mtk_platform_codecs_config \
-    mtk_vext_info \
     nnapi_powerhal \
     screen_light \
-    sensor_diag \
     sixth_param \
     sixth_param_voip \
-    slp_conf \
-    smsdbvisitor \
-    special_pws_channel \
     task_profiles \
     thermal-camera \
     thermal-chg-only \
@@ -945,7 +817,6 @@ PRODUCT_PACKAGES += \
     thermal_policy_02 \
     thermal_policy_08 \
     thermald-devices \
-    vendor-apns-conf \
     android.hardware.neuralnetworks-shim-service-mtk.xml \
     android.hardware.security.keymint-service.beanpod.xml \
     android.hardware.security.secureclock-service.beanpod.xml \
@@ -957,28 +828,14 @@ PRODUCT_PACKAGES += \
     manifest_cameraprovider.xml \
     manifest_hwcomposer.xml \
     manifest_media_c2_V1_2_default.xml \
-    virtual-spn-conf-by-efgid1 \
-    virtual-spn-conf-by-efpnn \
-    virtual-spn-conf-by-efspn \
-    virtual-spn-conf-by-imsi \
-    wfd_source_capability \
-    xgf \
-    bip_ap \
     bp_kmsetkey_ca \
     ccci_fsd \
     ccci_mdinit \
     ccci_rpcd \
     conninfra_loader \
-    dconfig \
     dcxosetcap \
-    dexecutor \
-    dmc_core \
-    doeapp-memtester \
-    doeapp-sat \
-    eara_io_service \
     fuelgauged \
     fuelgauged_nvram \
-    gbe \
     android.hardware.bluetooth@1.1-service-mediatek \
     android.hardware.drm@1.4-service.widevine \
     android.hardware.media.c2@1.2-mediatek-64b \
@@ -994,16 +851,14 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.nvram@1.1-service \
     vendor.mediatek.hardware.pq@2.2-service \
     kmsetkey \
+    kmsetkey_isee \
     mi_thermald \
-    jpegtool \
     v3avpud.mt6789 \
     muxreport \
     netdagent \
-    netdc \
     nvram_daemon \
     rcs_volte_stack \
     teei_daemon \
-    vpud \
     wlan_assistant \
     wmt_launcher \
     wmt_loader
