@@ -362,6 +362,7 @@ PRODUCT_PACKAGES += \
     libvow_ap_test_hh \
     libvow_ap_test_nn \
     libvpu \
+    libwifi-hal-mtk \
     libwpfa \
     libwvkeybox \
     gc08a3_mipi_raw_IdxMgr \
