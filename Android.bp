@@ -649,8 +649,6 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "liblog",
-                "libmtk_drvb",
-                "libmtkperf_client_vendor",
                 "libc++",
                 "libdl",
                 "libc",
@@ -1841,6 +1839,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/hw/hwcomposer.mtk_common.so",
             ],
             shared_libs: [
+                "libprocessgroup_shim",
                 "libutils",
                 "libcutils",
                 "liblog",
@@ -2603,38 +2602,6 @@ cc_prebuilt_library_shared {
                 "android.hardware.audio.common@6.0",
                 "android.hardware.audio.common@6.0-util",
                 "vendor.mediatek.hardware.audio@6.1",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    relative_install_path: "hw",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.mediatek.hardware.keymaster_attestation@1.1-impl",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libhidlbase",
-                "libhidltransport",
-                "libutils",
-                "libhardware",
-                "vendor.mediatek.hardware.keymaster_attestation@1.0",
-                "vendor.mediatek.hardware.keymaster_attestation@1.1",
                 "libc++",
                 "libc",
                 "libm",
@@ -6789,6 +6756,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libnvram.so",
             ],
             shared_libs: [
+                "libbase_shim",
                 "libcutils",
                 "libbase",
                 "liblog",
@@ -7141,6 +7109,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libtflite_mtk.so",
             ],
             shared_libs: [
+                "libbase_shim",
                 "liblog",
                 "libflatbuffers-cpp",
                 "libruy",
@@ -14079,6 +14048,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/mt6789/libneuralnetworks_sl_driver_mtk_prebuilt.so",
             ],
             shared_libs: [
+                "libbase_shim",
                 "libcutils",
                 "liblog",
                 "libnativewindow",
@@ -16411,7 +16381,7 @@ cc_prebuilt_binary {
             shared_libs: [
                 "android.hardware.security.rkp-V3-ndk",
                 "libhidlbase",
-                "android.hardware.security.keymint-V3-ndk",
+                "android.hardware.security.keymint-V4-ndk",
                 "android.hardware.security.sharedsecret-V1-ndk",
                 "android.hardware.security.secureclock-V1-ndk",
                 "lib_android_keymaster_keymint_utils",
@@ -16545,39 +16515,6 @@ cc_prebuilt_binary {
                 "android.hardware.tetheroffload.control@1.0",
                 "android.hardware.tetheroffload.control@1.1",
                 "vendor.mediatek.hardware.netdagent@1.0",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "vendor.mediatek.hardware.keymaster_attestation@1.1-service",
-    owner: "xiaomi",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libbase",
-                "libutils",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "vendor.mediatek.hardware.keymaster_attestation@1.1",
                 "libc++",
                 "libc",
                 "libm",
