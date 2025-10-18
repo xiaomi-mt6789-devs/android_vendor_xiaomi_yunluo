@@ -153,7 +153,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/yunluo/proprietary/vendor/etc/dsi_l83_36_02_0a_cphy_vdo_mi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dsi_l83_36_02_0a_cphy_vdo_mi.xml \
     vendor/xiaomi/yunluo/proprietary/vendor/etc/dsi_l83_44_02_0b_cphy_vdo_mi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dsi_l83_44_02_0b_cphy_vdo_mi.xml \
     vendor/xiaomi/yunluo/proprietary/vendor/etc/dsi_l83_44_02_0c_cphy_vdo_mi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dsi_l83_44_02_0c_cphy_vdo_mi.xml \
-    vendor/xiaomi/yunluo/proprietary/vendor/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc \
     vendor/xiaomi/yunluo/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.widevine.rc \
     vendor/xiaomi/yunluo/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc \
     vendor/xiaomi/yunluo/proprietary/vendor/etc/init/android.hardware.media.c2@1.2-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.c2@1.2-mediatek.rc \
@@ -300,7 +299,6 @@ PRODUCT_PACKAGES += \
     hdr_preview \
     hq_algoutils \
     hq_asd \
-    android.hardware.bluetooth@1.1-impl-mediatek \
     audio.primary.mediatek \
     audio.r_submix.mediatek \
     gatekeeper.beanpod \
@@ -761,7 +759,6 @@ PRODUCT_PACKAGES += \
     conninfra_loader \
     fuelgauged \
     fuelgauged_nvram \
-    android.hardware.bluetooth@1.1-service-mediatek \
     android.hardware.drm@1.4-service.widevine \
     android.hardware.media.c2@1.2-mediatek-64b \
     android.hardware.neuralnetworks-shim-service-mtk \
